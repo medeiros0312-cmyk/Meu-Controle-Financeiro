@@ -1,0 +1,24 @@
+MEU CONTROLE FINANCEIRO - PROJETO ANDROID
+
+Este projeto transforma a primeira versão web em um aplicativo Android simples (WebView). Os lançamentos são armazenados localmente no aparelho.
+
+COMO GERAR O APK USANDO SOMENTE O CELULAR (GitHub Actions)
+
+1. No Chrome do celular, entre em https://github.com e crie uma conta ou faça login.
+2. Crie um repositório novo chamado MeuControleFinanceiro. Pode deixá-lo privado.
+3. Extraia este ZIP usando o aplicativo Arquivos do Android.
+4. No repositório, use Add file > Upload files e envie TODOS os arquivos e pastas que estão dentro da pasta MeuControleFinanceiro, incluindo a pasta oculta .github. Se a tela móvel não mostrar arquivos ocultos, ative a opção de mostrar arquivos ocultos no gerenciador de arquivos.
+5. Confirme em Commit changes.
+6. Abra a aba Actions do repositório. Se aparecer uma solicitação para habilitar Actions, habilite-a.
+7. Selecione “Gerar APK Android” e toque em Run workflow. (Um envio para a branch main também inicia a compilação automaticamente.)
+8. Aguarde a execução terminar com marca verde. Abra a execução concluída e, na seção Artifacts, baixe “MeuControleFinanceiro-APK”.
+9. O download é um ZIP. Extraia-o e toque em app-debug.apk para instalar.
+10. Se o Android bloquear, permita temporariamente a instalação pelo navegador/gerenciador de arquivos que iniciou o APK. Instale apenas o APK gerado pelo seu próprio repositório.
+
+OBSERVAÇÕES
+- A compilação é feita nos servidores do GitHub; não exige PC nem Android Studio.
+- A versão debug é para teste e já vem assinada com chave de depuração.
+- O artefato fica disponível por 30 dias no GitHub Actions; baixe e guarde uma cópia.
+- Os dados ficam neste aparelho. Exporte backups regularmente pelo menu Dados do aplicativo.
+- Não há sincronização entre aparelhos nem conexão automática com bancos.
+- Não publique dados financeiros pessoais no repositório ou em arquivos de código.
